@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="p-4">
+    <header class="mb-6">
+      <h1 class="text-2xl font-bold">Admin Panel 🍬</h1>
+      <form action="/logout" method="POST" id="logoutForm">
+        <button type="submit" class="btn btn-session">Cerrar sesión</button>
+      </form>
+    </header>
+
+    <section>
+      <h2 class="text-xl font-bold mb-4">Combos</h2>
+      <div id="comboList"></div>
+
+      <h2 class="text-xl font-bold mt-6 mb-4 pt-6">Agregar Combo</h2>
+      <form id="comboForm">
+        <input type="text" name="nombre" placeholder="Nombre" required />
+        <textarea
+          name="descripcion"
+          placeholder="Descripción"
+          required
+        ></textarea>
+        <input type="number" name="precio" placeholder="Precio" required />
+        <input type="file" name="imagen" required />
+        <button type="submit" class="btn">Agregar</button>
+      </form>
+    </section>
+
+    <!-- Botón return -->
+    <a href="/" class="return-btn">← Volver</a>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

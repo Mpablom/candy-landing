@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="flex items-center justify-center h-screen">
+    <form action="/login" method="POST" class="login-form">
+      <h2 class="text-2xl font-bold mb-6 text-center">Login Admin</h2>
+      <input type="text" name="username" placeholder="Usuario" required />
+      <input
+        type="password"
+        name="password"
+        placeholder="Contraseña"
+        required
+      />
+      <button type="submit" class="btn w-full">Ingresar</button>
+    </form>
+
+    <!-- Botón return -->
+    <a href="/" class="return-btn">← Volver</a>
+  </body>
+</html>

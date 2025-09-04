@@ -1,0 +1,38 @@
+combos:
+  - nombre: Combo Nuevo
+    descripcion: Mesa rectangular, mantel blanco y decoración sencilla
+    precio: 20000
+    imagen: https://www.instagram.com/mag.icasprincesas/p/DOD5KHFDvbx/
+  - nombre: Combo Infantil
+    descripcion: Mesa temática con globos y banner personalizado
+    precio: 20000
+    imagen: https://picsum.photos/400/250?random=2
+  - nombre: Combo Premium
+    descripcion: Mesa, sillas, decoración temática y globos metálicos
+    precio: 30000
+    imagen: https://picsum.photos/400/250?random=3
+  - nombre: Combo Vintage
+    descripcion: Mobiliario rústico, guirnaldas y detalles de madera
+    precio: 28000
+    imagen: https://picsum.photos/400/250?random=4
+  - nombre: Combo Deluxe
+    descripcion: Candybar completo con mesa, decoración premium y dulces incluidos
+    precio: 50000
+    imagen: https://picsum.photos/400/250?random=5
+  - nombre: Combo Elegance
+    descripcion: Mesa espejo, flores naturales y ambientación romántica
+    precio: 45000
+    imagen: https://picsum.photos/400/250?random=6
+trabajos:
+  - titulo: Cumpleaños de 15
+    imagen: https://picsum.photos/400/250?random=7
+  - titulo: Baby Shower
+    imagen: https://picsum.photos/400/250?random=8
+  - titulo: Boda Vintage
+    imagen: https://picsum.photos/400/250?random=9
+  - titulo: Fiesta Infantil
+    imagen: https://picsum.photos/400/250?random=10
+  - titulo: Aniversario Romántico
+    imagen: https://picsum.photos/400/250?random=11
+  - titulo: Evento Corporativo
+    imagen: https://picsum.photos/400/250?random=12
