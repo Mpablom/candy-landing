@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="p-4">
-    <header class="mb-6">
+    <nav class="navbar">
       <h1 class="text-2xl font-bold">Admin Panel 🍬</h1>
+      <div class="theme">
+        <button id="themeToggle">🌙</button>
+      </div>
       <form action="/logout" method="POST" id="logoutForm">
         <button type="submit" class="btn btn-session">Cerrar sesión</button>
       </form>
-    </header>
+    </nav>
 
     <section>
       <h2 class="text-xl font-bold mb-4">Combos</h2>
@@ -36,5 +39,6 @@
     <a href="/" class="return-btn">← Volver</a>
 
     <script src="admin.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>
